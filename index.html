@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Matan Shaviro - Portfolio</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+      integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+      crossorigin="anonymous"
+    />
+  <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+  <!-- Custom styles for this template -->
+  <link href="css/ca-gallery.css" rel="stylesheet">
+
+</head>
+
+<body id="page-top">
+  <div class="scroll-down">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+  <button id="scroll-btn"><i class="fas fa-arrow-up"></i></button>
+
+  <div class="offcanvas-btn" onClick="openCanvas()">
+    <i class="fa fa-comment" aria-hidden="true"></i>
+  </div>
+  <aside class="offcanvas-aside">
+  <!-- Contact -->
+  <section id="contact" class="text-center"></section>
+  </aside>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">Matan's Portfolio</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+        aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fa fa-bars"></i>
+        </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#services">Specialities</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#me">Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" onClick="openCanvas()">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Header -->
+  <header class="masthead">
+    <div class="container">
+      <div class="intro-text">
+        <div class="intro-lead-in">Welcome To my Portfolio</div>
+        <div class="intro-heading">It's Nice To Meet You</div>
+        <a class="btn btn-xl js-scroll-trigger" href="#services">Tell Me More</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Services -->
+  <section id="services">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading">Specialities</h2>
+          <h3 class="section-subheading text-muted">Full Stack Developer With Front-End Focused</h3>
+        </div>
+      </div>
+      <div class="row text-center">
+        <div class="col-md-4">
+          <span class="fa-stack fa-4x">
+              <i class="fa fa-circle fa-stack-2x text-react"></i>
+              <i class="fab fa-react fa-stack-1x fa-inverse"></i>
+            </span>
+          <h4 class="service-heading">React JS</h4>
+          <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex
+            magni, dicta impedit.</p>
+        </div>
+        <div class="col-md-4">
+          <span class="fa-stack fa-4x">
+              <i class="fa fa-circle fa-stack-2x text-vue"></i>
+              <i class="fab fa-vuejs fa-stack-1x fa-inverse"></i>
+            </span>
+          <h4 class="service-heading">Vue JS</h4>
+          <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex
+            magni, dicta impedit.</p>
+        </div>
+        <div class="col-md-4">
+          <span class="fa-stack fa-4x">
+              <i class="fa fa-circle fa-stack-2x text-node"></i>
+              <i class="fab fa-node fa-stack-1x fa-inverse"></i>
+            </span>
+          <h4 class="service-heading">Node JS</h4>
+          <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex
+            magni, dicta impedit.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio Grid -->
+  <section class="bg-light" id="portfolio">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading">Portfolio</h2>
+          <h3 class="section-subheading text-muted">Check Out My Projects</h3>
+        </div>
+      </div>
+      <div class="row portfolio flex-align-center"></div>
+    </div>
+  </section>
+
+  <!-- Me -->
+  <section class="bg-light" id="me" style="padding: 0px;">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading">About Me</h2>
+      </div>
+    </div>
+      <div class="row">
+        <div class="col-sm-3"></div>
+        <div class="col-sm-3">
+          <div class="team-member">
+            <img class="mx-auto rounded-circle" src="img/team/portrait.PNG" alt="">
+            <h4>Matan Shaviro</h4>
+            <p class="text-muted">Full Stack Web Developer</p>
+            <ul class="list-inline social-buttons">
+              <li class="list-inline-item">
+                <a target="_blank" href="https://www.youtube.com/channel/UCrvs54FMFNeDUt_Dib9Gbzw">
+                    <i class="fa fa-youtube"></i>
+                  </a>
+              </li>
+              <li class="list-inline-item">
+                <a target="_blank" href="https://www.facebook.com/matan.shaviro">
+                    <i class="fa fa-facebook"></i>
+                  </a>
+              </li>
+              <li class="list-inline-item">
+                <a target="_blank" href="https://www.linkedin.com/in/matan-shaviro-990b0272/">
+                    <i class="fa fa-linkedin"></i>
+                  </a>
+              </li>
+              <li class="list-inline-item">
+                <a target="_blank" href="https://github.com/matan3sh">
+                    <i class="fa fa-github"></i>
+                  </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-sm-3 flex-align-center">
+            <p class="large text-muted about-description">Hi my name is Matan Shaviro I am a Software Engineer Graduate (B.Sc) Throughout my working experience, I've always been on the technical side and I really love it. I can testify to myself that I have a passion for high tech, an analytical mindset, and creative ability to pay attention to detail. when given the opportunity, I would learn quickly and efficiently and will contribute a lot to success.</p>    
+        </div>
+        <div class="col-sm-3"></div>
+      </div>
+  </section>
+
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-12 flex-align-center">
+          <p>All the right reserved &copy; Matan Shaviro 2020</p>
+          <a href="http://coding-academy.org" target="_blank">
+            <img src="./img/ca-logo.png" alt="">
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Portfolio Modals -->
+  <div class="modal-container"></div>
+
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/popper/popper.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="js/util.js"></script>
+  <script src="js/project-service.js"></script>
+  <script src="js/ca-gallery.js"></script>
+  <script src="js/offCanvas.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+
+</html>

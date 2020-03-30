@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Mine-Sweeper</title>
+</head>
+
+<body onload="init()">
+    <h1>Mine-Sweeper</h1>
+
+    <div class="features">
+        <div class="hints-header">
+            <div>Hints</div>
+            <div class="hints"></div>
+        </div>
+
+        <div class="time">
+            <div>Game Time</div>
+            <div class="stop-watch"></div>
+        </div>
+    </div>
+
+    <div class="matrix"></div>
+
+    <div class="features-down">
+        <div class="smiley" onclick="restartGame()"></div>
+        <div class="lives"></div>
+    </div>
+
+    <div class="best-game-time">
+        <h2></h2>
+    </div>
+
+    <div class="levels">
+        <input type="checkbox" id="4X4" name="4X4" value="4X4" onclick="renderLevel(4,2)" checked="true">
+        <label for="male">4X4 (2 MINES)</label><br>
+        <input type="checkbox" id="8X8" name="8X8" value="8X8" onclick="renderLevel(8,12)">
+        <label for="female">8X8 (12 MINES)</label><br>
+        <input type="checkbox" id="12X12" name="12X12" value="12X12" onclick="renderLevel(12,30)">
+        <label for="other">12X12 (30 MINES)</label>
+    </div>
+
+
+    <script src="js/util.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
